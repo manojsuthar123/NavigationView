@@ -6,4 +6,4 @@ Add the dependency in your Build.Gradle(app-level)
 
 Output
 
-<img src="https://raw.githubusercontent.com/Manojangid/NavigationView/master/output.gif" width="320" height="480" />
+<img src="https://raw.githubusercontent.com/Manojangid/NavigationView/master/output.gif" width="320" height="500" />
