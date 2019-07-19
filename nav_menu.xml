@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/starred"
+            android:icon="@drawable/ic_starred"
+            android:title="Starred" />
+        <item
+            android:id="@+id/archive"
+            android:icon="@drawable/ic_archive"
+            android:title="Archive" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_share"/>
+            <item
+                android:id="@+id/contact"
+                android:title="Contact"
+                android:icon="@drawable/ic_perm_phone"/>
+            <item
+                android:id="@+id/privacy"
+                android:title="Privacy"
+                android:icon="@drawable/ic_privacy"/>
+        </menu>
+    </item>
+</menu>
